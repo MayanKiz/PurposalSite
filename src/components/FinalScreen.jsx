@@ -20,7 +20,7 @@ export default function FinalScreen() {
   const BOT_TOKEN = "7471112121:AAEyXYz0RddrBXAFKdqsEF_gkViSvv9-Pz0"
   const CHAT_ID = "7643222418" 
 
-  const proposalMessage = `Sample Message`
+  const proposalMessage = `A moment made for you`
 
   useEffect(() => {
     if (cardOpen && !typingComplete) {
@@ -129,14 +129,12 @@ export default function FinalScreen() {
 
                 {typingComplete && (
                   <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-8 pt-6 border-t border-white/5 flex flex-col items-center gap-4">
-                    <p className="text-pink-200/60 italic text-[13px] font-light">Sample Message</p>
+                    <p className="text-pink-200/60 italic text-[13px] font-light">A moment made for you</p>
                     <motion.button 
                       onClick={() => { setShowPopup(true); confetti({ particleCount: 60 }); }}
                       whileTap={{ scale: 0.95 }}
                       className="bg-gradient-to-r from-pink-600 to-rose-700 text-white w-full py-4 rounded-full font-bold tracking-[0.2em] text-[11px] uppercase shadow-lg"
-                    >
-                      Sample Text
-                    </motion.button>
+                    >A moment made for you</motion.button>
                   </motion.div>
                 )}
               </div>
