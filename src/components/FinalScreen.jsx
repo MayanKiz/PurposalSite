@@ -135,7 +135,7 @@ export default function FinalScreen() {
                       whileTap={{ scale: 0.95 }}
                       className="bg-gradient-to-r from-pink-600 to-rose-700 text-white w-full py-4 rounded-full font-bold tracking-[0.2em] text-[11px] uppercase shadow-lg"
                     >
-                      Sample Message
+                      Sample Text
                     </motion.button>
                   </motion.div>
                 )}
